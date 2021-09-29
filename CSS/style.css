@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+#blank {
+    margin: 20px auto;
+    color: #000000;
+    border: 1px solid #413c3c;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+#blank_sec {
+    margin: 20px auto;
+    color: #000000;
+    border: 1px solid #413c3c;
+    padding: 10px 10px 20px 10px;
+    text-align: left;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+label {
+    padding-right: 10px;
+}
+.b_form {
+    padding: 5px 5px;
+    border: 1px solid rgb(26, 25, 25);;
+    margin: 10px 5px;
+    border-radius: 2px;
+}
+input[type="file"] {
+    display: none;
+}
+.button {
+    cursor: pointer;
+    border: 1px solid rgb(26, 25, 25);
+    padding: 1px 10px;
+    border-radius: 2px;
+}
+.action {
+    padding: 3px 15px;
+    cursor: pointer;
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 2px;
+}
+.action:hover {
+    background-color: #413c3c;
+    color: #aaa;
+}
+.title {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 35px;
+    padding: 5px 6px;
+}
+.title_reg {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 73px;
+    padding: 5px 6px;
+}
+.title_gen {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 116px;
+    padding: 5px 6px;
+}
+.title_select {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 203px;
+    padding: 5px 6px;
+}
+.title_logo {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.avatar {
+    margin-right: 30px;
+}
+.marg_top {
+    margin-top: 10px;
+}
+#low {
+    border: 1px solid #000000;
+}
+.text {
+    margin: 15px 0px 0px 0px;
+}
+#about {
+    border: 1px solid #000;
+    margin-left: 10px;
+}
+.send_button {
+    margin-left: 10px;
+    margin-top: 10px;
+}

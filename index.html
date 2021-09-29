@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Fomrs</title>
+</head>
+<body>
+    <section id="header">
+        <h2 class="title_logo">Blank Login</h2>
+        <div id="blank">
+            <div class="title">Login</div>
+            <form action=""method="post"enctype="multipart/form-data">
+                <label for="username">Username</label>
+                <input placeholder="my@mail.com" name="username" tabindex="1" type="text" class="b_form"><br>
+                <label for="password">Password</label>
+                <input placeholder="*********" name="password" tabindex="2" type="password" class="b_form"><br>
+                <button type="submit" class="action">Send</button>
+            </form>
+        </div>
+        <h2 class="title_logo">Blank Registration</h2>
+            <div id="blank">
+                <div class="title_reg">Registration</div>
+                <form action=""method="post"enctype="multipart/form-data">
+                    <label for="name">Name</label>
+                    <input placeholder="name" name="name" tabindex="1" type="text" class="b_form"><br>
+                    <label for="email">Email</label>
+                    <input placeholder="my@mail.com" name="email" tabindex="2" type="email" class="b_form"><br>
+                    <label for="password">Password</label>
+                    <input placeholder="*********" name="password" tabindex="3" type="password" class="b_form"><br>
+                    <label for="repeat password">Repeat Password</label>
+                    <input placeholder="*********" name="repeat password" tabindex="4"type="password" class="b_form"><br>
+                    <label for="Date">Date</label>
+                    <input name="Date" tabindex="5" type="datetime-local" class="b_form"><br>
+                    <div class="marg_top">
+                        <span class="avatar">Add avatar</span><label for="file" class="button">Add File</label>
+                    </div>
+                    <input placeholder="" tabindex="6" id="file" type="file"><br>
+                    <div id="blank_sec">
+                        <div class="title_gen">Select your gender</div>
+                        <label for="male">Male</label>
+                        <input name="sex" type="radio" value="female">
+                        <label for="female">Female</label>
+                        <input name="sex" type="radio" value="male">
+                        <label for="other">Other</label>
+                        <input name="sex" type="radio" value="other">
+                    </div>
+                    <div id="blank_sec">
+                        <div class="title_select">Select language which you know</div>
+                        <label for="html">html</label>
+                        <input type="checkbox" id="checkbox" value="yes" name="html">
+                        <label for="js">js</label>
+                        <input type="checkbox" id="checkbox" value="yes" name="js">
+                        <label for="css">css</label>
+                        <input type="checkbox" id="checkbox" value="yes" name="css">
+                        <label for="other">other</label>
+                        <input type="checkbox" id="checkbox" value="yes" name="other">
+                    </div>
+                    <label for="low">Select your experience</label>
+                    <select name="low" id="low">
+                        <option value="low">Low</option>
+                        <option value="middle">Middle</option>
+                        <option value="hight">Hight</option>
+                    </select>
+                    <div class="text">
+                    <label for="about">About</label>
+                    </div><br>
+                    <textarea name="about" id="about" cols="50" rows="10"></textarea>
+                    <div class="send_button">
+                        <button type="submit" class="action">Send</button>
+                    </div>
+                </form>
+            </div>
+            <h2 class="title_logo">Ordering form</h2>
+    </section>
+</body>
+</html>
