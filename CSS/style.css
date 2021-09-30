@@ -32,6 +32,14 @@ html, body {
     margin-left: 100px;
     margin-bottom: 100px;
 }
+#blank_three {
+    margin: 20px auto;
+    color: #000000;
+    border: 1px solid #413c3c;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
 #blank_sec {
     margin: 20px auto;
     color: #000000;
@@ -66,6 +74,18 @@ input[type="file"] {
     border: 1px solid rgb(26, 25, 25);
     border-radius: 2px;
 }
+.action_order {
+    padding: 3px 15px;
+    cursor: pointer;
+    border: 1px solid rgb(26, 25, 25);
+    border-radius: 2px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.action_order:hover {
+    background-color: #413c3c;
+    color: #aaa;
+}
 .action:hover {
     background-color: #413c3c;
     color: #aaa;
@@ -94,6 +114,30 @@ input[type="file"] {
     width: 203px;
     padding: 5px 6px;
 }
+.title_buy {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 90px;
+    padding: 5px 6px;
+}
+.title_adda {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 53px;
+    padding: 5px 6px;
+}
+.title_pay {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 75px;
+    padding: 5px 6px;
+}
+.title_add {
+    background-color: #fff;
+    transform: translate(0px,-20px);
+    width: 90px;
+    padding: 5px 6px;
+}
 .title_logo {
     text-align: center;
     margin-bottom: 50px;
@@ -118,4 +162,13 @@ input[type="file"] {
 .send_button {
     margin-left: 10px;
     margin-top: 10px;
+}
+.marg_bot {
+    margin-top: 10px;
+}
+.margg {
+    margin: 0px 0px 20px 0px;
+}
+.title_footer {
+    margin: 20px 0px;
 }

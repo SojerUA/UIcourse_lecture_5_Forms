@@ -25,19 +25,19 @@
                 <div class="title_reg">Registration</div>
                 <form action=""method="post"enctype="multipart/form-data">
                     <label for="name">Name</label>
-                    <input placeholder="name" name="name" tabindex="1" type="text" class="b_form"><br>
+                    <input placeholder="name" name="name" tabindex="3" type="text" class="b_form"><br>
                     <label for="email">Email</label>
-                    <input placeholder="my@mail.com" name="email" tabindex="2" type="email" class="b_form"><br>
+                    <input placeholder="my@mail.com" name="email" tabindex="4" type="email" class="b_form"><br>
                     <label for="password">Password</label>
-                    <input placeholder="*********" name="password" tabindex="3" type="password" class="b_form"><br>
+                    <input placeholder="*********" name="password" tabindex="5" type="password" class="b_form"><br>
                     <label for="repeat password">Repeat Password</label>
-                    <input placeholder="*********" name="repeat password" tabindex="4"type="password" class="b_form"><br>
+                    <input placeholder="*********" name="repeat password" tabindex="6"type="password" class="b_form"><br>
                     <label for="Date">Date</label>
-                    <input name="Date" tabindex="5" type="datetime-local" class="b_form"><br>
+                    <input name="Date" tabindex="7" type="datetime-local" class="b_form"><br>
                     <div class="marg_top">
                         <span class="avatar">Add avatar</span><label for="file" class="button">Add File</label>
                     </div>
-                    <input placeholder="" tabindex="6" id="file" type="file"><br>
+                    <input placeholder="" tabindex="8" id="file" type="file"><br>
                     <div id="blank_sec">
                         <div class="title_gen">Select your gender</div>
                         <label for="male">Male</label>
@@ -50,13 +50,13 @@
                     <div id="blank_sec">
                         <div class="title_select">Select language which you know</div>
                         <label for="html">html</label>
-                        <input type="checkbox" id="checkbox" value="yes" name="html">
+                        <input type="checkbox" id="check" value="yes" name="html">
                         <label for="js">js</label>
-                        <input type="checkbox" id="checkbox" value="yes" name="js">
+                        <input type="checkbox" id="check" value="yes" name="js">
                         <label for="css">css</label>
-                        <input type="checkbox" id="checkbox" value="yes" name="css">
+                        <input type="checkbox" id="check" value="yes" name="css">
                         <label for="other">other</label>
-                        <input type="checkbox" id="checkbox" value="yes" name="other">
+                        <input type="checkbox" id="check" value="yes" name="other">
                     </div>
                     <label for="low">Select your experience</label>
                     <select name="low" id="low">
@@ -74,6 +74,48 @@
                 </form>
             </div>
             <h2 class="title_logo">Ordering form</h2>
+            <form action="" method="post" enctype="multipart/form-data">
+                <div id="blank_three">
+                    <div class="title_buy">Buying details</div>
+                    <label for="name">First name</label>
+                    <input placeholder="You name" tabindex="9" type="text" name="name" class="b_form"><br>
+                    <label for="lastname">Last name</label>
+                    <input placeholder="You Last name" tabindex="10" type="text" name="lastname" class="b_form"><br>
+                    <label for="email">Email</label>
+                    <input placeholder="my@mail.com" tabindex="11" type="email" name="email" class="b_form"><br>
+                    <label for="mobile">Mobile number</label>
+                    <input placeholder="+38(000)0000000" tabindex="12" type="mobile" name="mobile" class="b_form"><br>
+                </div>
+                <div id="blank_three">
+                    <div class="title_adda">Address</div>
+                    <label for="city">City*</label>
+                    <input name="city" type="text" class="b_form"><br>
+                    <label for="street">Street*</label>
+                    <input placeholder="Street name" name="street" type="text" class="b_form"><br>
+                    <label for="streetnumber">Street number*</label>
+                    <input placeholder="Street number" name="streetnumber" type="text" class="b_form"><br>
+                    <label for="flat">Flat</label>
+                    <input placeholder="Flat" name="flat" type="number" class="b_form">
+                </div>
+                <div id="blank_three">
+                    <div class="title_pay">Pay options</div>
+                    <div class="margg">Pay tipe</div>
+                    <label for="cash">Cash</label>
+                    <input value="cash" type="radio" name="card"><br>
+                    <div class="marg_bot">
+                        <label for="card">Credit card</label>
+                        <input value="card" type="radio" name="card"><br>
+                    </div>
+                </div>
+                <div id="blank_three">
+                    <div class="title_add">Add optionals</div>
+                    <input type="checkbox" name="create">
+                    <label for="create">Create an account?</label>
+                    <div class="title_footer">Notes:</div>
+                    <textarea name="notes" placeholder="Enter notes about delivery or food" id="" cols="35" rows="10" class="b_form"></textarea>
+                </div>
+                <button type="submit" class="action_order">Please order</button>
+            </form>
     </section>
 </body>
 </html>
